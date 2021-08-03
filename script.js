@@ -109,4 +109,5 @@ let closeOverlay = () => {
     var toRemove = carousel.querySelectorAll(".slide");
     toRemove.forEach( child => child.remove());
     dots.innerHTML = '';
+    slideIndex = 1;
 }
